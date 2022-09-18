@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap');
+
+
+body{
+    font-family:'Exo';
+    background-image: url('glass.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+@media(max-width:1280px){
+    .container{
+      width: 95%;
+    }
+  }
+  
+  @media(max-width:768px){
+    #timer h1{
+      font-size: 4rem;
+    }
+  }
+  
+  @media(max-width:480px){
+    #timer h1{
+      font-size: 3.5rem;
+    }
+  }
+  
+  @media(max-width:320px){
+    #timer h1{
+      font-size: 3rem;
+    }
+  }
